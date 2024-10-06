@@ -1,19 +1,24 @@
+/* تنسيق الصفحة العامة */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
+/* تنسيق الهيدر والقائمة */
 header {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
 }
 
 nav ul {
@@ -22,47 +27,92 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline-block;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
 }
 
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* تنسيق محتوى الأخبار */
 main {
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section.news {
-    background-color: white;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
+section.news:hover {
+    transform: translateY(-5px);
+}
+
+section.news h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 10px;
+}
+
+section.news article {
+    margin: 15px 0;
+}
+
+section.news h3 {
+    color: #2980b9;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section.news p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* تنسيق الزر */
 button {
-    padding: 10px 15px;
-    background-color: #007BFF;
+    padding: 10px 20px;
+    background-color: #f39c12;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #e67e22;
 }
 
+/* تنسيق الفوتر */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    letter-spacing: 1px;
 }
