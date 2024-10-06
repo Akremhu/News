@@ -1,7 +1,7 @@
 /* تنسيق الصفحة العامة */
 body {
     font-family: 'Tajawal', sans-serif;
-    background-color: #f2f2f2;
+    background-color: #eaeaea; /* لون خلفية فاتح */
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -9,8 +9,8 @@ body {
 
 /* تنسيق الهيدر والقائمة */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #2c3e50; /* لون أزرق داكن */
+    color: #ecf0f1; /* لون نص فاتح */
     padding: 20px;
     text-align: center;
 }
@@ -32,14 +32,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #ecf0f1; /* لون نص فاتح */
     text-decoration: none;
     font-size: 1.2em;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #f39c12;
+    color: #f39c12; /* لون برتقالي فاتح عند التمرير */
 }
 
 /* تنسيق محتوى الأخبار */
@@ -50,23 +50,18 @@ main {
 }
 
 section.news {
-    background-color: #fff;
+    background-color: #ffffff; /* لون خلفية أبيض */
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-section.news:hover {
-    transform: translateY(-5px);
 }
 
 section.news h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #333;
-    border-bottom: 2px solid #f39c12;
+    color: #34495e; /* لون رمادي داكن */
+    border-bottom: 2px solid #f39c12; /* لون برتقالي */
     padding-bottom: 10px;
 }
 
@@ -75,7 +70,7 @@ section.news article {
 }
 
 section.news h3 {
-    color: #2980b9;
+    color: #2980b9; /* لون أزرق */
     font-size: 1.5em;
     margin-bottom: 10px;
 }
@@ -83,13 +78,13 @@ section.news h3 {
 section.news p {
     font-size: 1.1em;
     line-height: 1.8;
-    color: #666;
+    color: #666666; /* لون رمادي */
 }
 
 /* تنسيق الزر */
 button {
     padding: 10px 20px;
-    background-color: #f39c12;
+    background-color: #f39c12; /* لون برتقالي */
     color: white;
     border: none;
     border-radius: 5px;
@@ -99,13 +94,13 @@ button {
 }
 
 button:hover {
-    background-color: #e67e22;
+    background-color: #e67e22; /* لون برتقالي أغمق عند التمرير */
 }
 
 /* تنسيق الفوتر */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #2c3e50; /* لون أزرق داكن */
+    color: #ecf0f1; /* لون نص فاتح */
     text-align: center;
     padding: 15px 0;
     margin-top: 40px;
