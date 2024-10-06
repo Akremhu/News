@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع أخبار بسيط</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>أحدث الأخبار</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">السياسة</a></li>
+                <li><a href="#">الرياضة</a></li>
+                <li><a href="#">التكنولوجيا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="news">
+            <h2>عنوان الخبر الأول</h2>
+            <p>هذا هو نص الخبر الأول. يمكنك إضافة وصف مفصل عن الأخبار هنا.</p>
+            <button onclick="showDetails('تفاصيل إضافية حول الخبر الأول')">عرض التفاصيل</button>
+        </section>
+
+        <section class="news">
+            <h2>عنوان الخبر الثاني</h2>
+            <p>هذا هو نص الخبر الثاني. المزيد من التفاصيل حول هذا الخبر تأتي هنا.</p>
+            <button onclick="showDetails('تفاصيل إضافية حول الخبر الثاني')">عرض التفاصيل</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 موقع الأخبار</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
